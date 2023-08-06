@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&display=swap');
+* {
+    padding: 0;
+    margin:0;
+    
+
+
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: #1E1E1E;
+    
+    
+
+}
+
+
+#hero {
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    margin-top: 3rem;
+
+    
+}
+nav ul{
+    list-style-type: none;
+    background: #AEDCFF;
+    width: 90%;
+    padding: 10px ;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    float: right;
+    color: white;
+    padding: 10px 10px;
+    
+}
+
+nav ul li a:hover {
+    opacity: 0.9;
+}
+
+nav ul li .contact:hover,
+nav ul li .article:hover{
+    color: black;
+}
+
+img {
+    float: left;
+    position: left;
+    margin-top: 5px;
+   
+}
+
+nav ul .login {
+    background-color: #103755;
+    border-radius: 15px;
+    text-transform: uppercase;
+    
+    
+}
+
+nav ul .cv {
+    background-color: black;
+    border-radius: 15px;
+    
+    text-transform: uppercase;
+    margin-left: 20px;
+    
+    
+}
+
+.grid-container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+
+}
+
+.grid-container .hero-img{
+    max-width: 40%;
+    align-items: right;
+    margin-left: 5rem;
+   
+}
+
+.vector {
+    width: 30rem;
+    align-items: right;
+    justify-self: right;
+    margin-left: 10rem;
+}
+
+.grid-container .text-inner {
+    max-width: 40%;
+}
+
+.grid-container h1 {
+    color: #AEDCFF;
+    font-size: 7rem;
+    text-transform: uppercase;
+    text-align: left;
+    
+}
+
+.grid-container p {
+    color: white;
+    line-height: 1.5;
+    font-size: 20px;
+    
+
+
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+.container {
+    display: flex;
+    
+}
+.card img {
+    height: 500px;
+
+}
+
